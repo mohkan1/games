@@ -34,9 +34,6 @@ function preload ()
     this.load.image('platform', 'https://s3.amazonaws.com/codecademy-content/courses/learn-phaser/physics/platform.png')
     this.load.spritesheet('dude', '../assets/dude.png', { frameWidth: 32, frameHeight: 48 })
     this.load.image('shot', '../assets/bomb.png')
-
-
-
 }
 
 function create ()
